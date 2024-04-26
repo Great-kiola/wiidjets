@@ -34,11 +34,9 @@ body {
     margin: 8px;
     padding: 15px 15px 10px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     display: flex;
     flex-direction: column;
-    cursor: pointer;
-    background-color: #FDFCFA;
 }
 
 .details {
@@ -118,7 +116,7 @@ body {
 
 .coin h2 {
     font-family: "Space Mono", monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
