@@ -118,8 +118,8 @@ body {
 
 .coin h2 {
     font-family: "Space Mono", monospace;
-    font-size: 1.5rem;
-    font-weight: 900;
+    font-size: 1.4rem;
+    font-weight: 800;
 }
 
 .coin-designs{
@@ -140,6 +140,10 @@ body {
 }
 
 .coin-movement h3, .coin-movement svg{
-    font-size: .9rem;
+    font-size: .7rem;
     color: green;
+}
+
+.coin-movement h3 svg{
+    font-size: .5rem;
 }
