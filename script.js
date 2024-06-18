@@ -12,3 +12,4 @@ fetch(
 
 
   // Add open-weather Api
+  Get response { This is the API get response code }
