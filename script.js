@@ -10,6 +10,7 @@ fetch(
     // Handle any errors here
   });
 
+  // Fetch
 
   // Add open-weather Api
   // Get response { This is the API get response code }
