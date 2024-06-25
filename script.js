@@ -13,6 +13,6 @@ fetch(
   // Fetch Api control
 
   // Add open-weather Api
-  Get response { This is the API get response code }
+  // Get response { This is the API get response code }
 
   //* Learn how to use fetch AGAIN!!
