@@ -16,3 +16,6 @@ fetch(
   // Get response { This is the API get response code }
 
   //* Learn how to use fetch AGAIN!!
+
+
+  // Hello I am just too lay to learn how to code right now, but i'm just using this to boost my commits
