@@ -10,6 +10,7 @@ fetch(
   })
   .catch((error) => {
     // Handle any errors here
+    console.log("Not Sucessfull");
   });
 
 
