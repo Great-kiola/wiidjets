@@ -1,4 +1,6 @@
-const cityTemp = document.querySelector("#temp");
+const cityTemp = document.querySelector("#temperature");
+const cityName = document.querySelector("#cityName");
+const humidity = document.querySelector(".humidity");
 
 // Connect open weather API
 fetch(
@@ -9,6 +11,10 @@ fetch(
     // Process the data here
 
     console.log(data);
+
+    cityTemp.innerHTML = data.main.temp;
+    humidity.innerHTML = data.main.humidity;
+    cityName.innerHTML = data.name;
   })
   .catch((error) => {
     // Handle any errors here
