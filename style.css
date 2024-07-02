@@ -85,11 +85,6 @@ body {
     gap: 5px;
 }
 
-:root {
-    --textColor: #000000;
-}
-
-
 .birthdate{
     height: 100%;
     display: flex;
@@ -146,4 +141,8 @@ body {
 
 .coin-movement h3 svg{
     font-size: .5rem;
+}
+
+:root {
+    --textColor: #000000;
 }
