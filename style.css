@@ -55,7 +55,6 @@ body {
     top: -6px;
     right: -5px;
     z-index: 1;
-    content: " ";
 }
 
 .stats {
