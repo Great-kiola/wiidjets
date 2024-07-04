@@ -12,13 +12,11 @@ fetch(
 )
 .then((response) => response.json())
 .then((data) => {  
-  
-
   console.log(data);
-
   cityTemp.innerHTML = data.main.temp;
   humidity.innerHTML = data.main.humidity;
   cityName.innerHTML = data.name;
+
 })
 .catch((error) => {
   console.log("Error during fetch " + error.message);
