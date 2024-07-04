@@ -21,13 +21,16 @@ fetch(
   cityName.innerHTML = data.name;
 })
 .catch((error) => {
-    console.log("Not Sucessfull");
+  console.log("Error during fetch " + error.message);
+
 });
   
-
- // Date
-
+// Date 
 const date = new Date();
+const year = date.getFullYear();
+const month = date.getMonth();
+const day = date.getDate();
+const dayofweek = date.getDay();
 
 normalDate.innerText = date;
 console.log(date);
