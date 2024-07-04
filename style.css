@@ -161,6 +161,13 @@ body {
     font-size: .5rem;
 }
 
+/* Date */
+
+.TDate{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
 :root {
     --textColor: #000000;
 }

@@ -3,6 +3,7 @@
 const cityTemp = document.querySelector("#temperature");
 const cityName = document.querySelector("#cityName");
 const humidity = document.querySelector(".humidity");
+const normalDate = document.querySelector("#normalDate");
 
 // Connect open weather API
 
@@ -24,3 +25,9 @@ fetch(
 });
   
 
+ // Date
+
+const date = new Date();
+
+normalDate.innerText = date;
+console.log(date);
