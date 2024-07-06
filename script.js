@@ -29,5 +29,8 @@ const month = date.getMonth();
 const day = date.getDate();
 const dayofweek = date.getDay();
 
-normalDate.innerText = date;
+normalDate.innerText = date.toDateString();
 console.log(date);
+
+
+// Date of birth calculation
