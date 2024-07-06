@@ -30,7 +30,11 @@ const day = date.getDate();
 const dayofweek = date.getDay();
 
 normalDate.innerText = date.toDateString();
-console.log(date.toDateString);
+
+console.log(date.toLocaleString('default' , {
+  month: 'long',
+  weekday: 'short'
+}));
 
 
 // Date of birth calculation
