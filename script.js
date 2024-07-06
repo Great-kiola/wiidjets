@@ -6,7 +6,6 @@ const humidity = document.querySelector(".humidity");
 const normalDate = document.querySelector("#normalDate");
 
 // Connect open weather API
-
 fetch(
   "https://api.openweathermap.org/data/2.5/weather?q=London&appid=a461925d79fc440221121b90fd18ec1c"
 )
