@@ -38,3 +38,21 @@ console.log(date.toLocaleString('default' , {
 
 
 // Date of birth calculation
+
+
+// 1 
+const date3 = new Date();
+
+// 2
+const byMonth = date3.getMonth();f
+
+// 3
+const hour = date3.getHours();
+const min = date3.getMinutes();
+console.log(hour + ":" + min);
+
+// 4
+console.log(date3.toLocaleString("default" , {
+  weekday: "long"
+}));
+
