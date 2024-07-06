@@ -38,6 +38,8 @@ console.log(date.toLocaleString('default' , {
 
 
 // Date of birth calculation
+console.log("The year is " + date.getFullYear());
+
 
 
 // 1 
