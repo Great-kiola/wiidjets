@@ -30,7 +30,7 @@ const day = date.getDate();
 const dayofweek = date.getDay();
 
 normalDate.innerText = date.toDateString();
-console.log(date);
+console.log(date.toDateString);
 
 
 // Date of birth calculation
