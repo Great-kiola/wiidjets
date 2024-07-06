@@ -41,10 +41,20 @@ console.log(
 console.log("The year is " + date.getFullYear());
 let userYear = prompt("What year were you born");
 
-if (isNaN(userYear)) {
-  alert("Please enter a number")
+// Validate prompt
+
+let minVal = 4;
+
+if (userYear.length <= minVal){
+  
+  if (isNaN(userYear)) {
+    alert("Please enter a number")
+  } else {
+    let userBirth = date.getFullYear() - userYear;
+    userAge.innerText = userBirth;
+    console.log(`You are ${userBirth} years old`);
+  }
+
 } else {
-  let userBirth = date.getFullYear() - userYear;
-  userAge.innerText = userBirth;
-  console.log(`You are ${userBirth} years old`);
+  alert("Please enter a 4 digit number");
 }
