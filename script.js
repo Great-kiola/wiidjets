@@ -42,11 +42,12 @@ console.log("The year is " + date.getFullYear());
 let userYear = prompt("What year were you born");
 
 // Validate prompt
-
 let minVal = 4;
 
+// Checks if the value is greater than or less than 4 numbers
 if (userYear.length <= minVal){
   
+  // Checks if value is a number
   if (isNaN(userYear)) {
     alert("Please enter a number")
   } else {
