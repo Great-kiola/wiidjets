@@ -39,7 +39,7 @@ console.log(
 
 // Date of birth calculation
 console.log("The year is " + date.getFullYear());
-let userYear = prompt("What year were you born");
+// let userYear = prompt("What year were you born");
 
 // Validate prompt
 let minVal = 4;
