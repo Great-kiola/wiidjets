@@ -92,6 +92,31 @@ body {
     color: var(--textColor);
 }
 
+.title{
+    position: relative;
+}
+
+.tooltip-text{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    top: 20px;
+}
+
+.tooltip-text::before{
+    content: " ";
+    position: absolute;
+    top: 65%;
+    /* z-index: 1; */
+    transform: rotate(45deg);
+    border: 10px solid;
+    color: #000;
+    left: 75px;
+
+}
+
 .widject-name {
     display: flex;
     gap: 5px;
