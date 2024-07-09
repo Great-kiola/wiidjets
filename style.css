@@ -100,7 +100,7 @@ body {
     position: absolute;
     background-color: #000;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 8px;
     top: 20px;
 }
@@ -114,7 +114,6 @@ body {
     border: 10px solid;
     color: #000;
     left: 75px;
-
 }
 
 .widject-name {
