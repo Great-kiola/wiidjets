@@ -110,10 +110,10 @@ body {
     position: absolute;
     top: 65%;
     /* z-index: 1; */
-    transform: rotate(45deg);
+    /* transform: rotate(45deg);
     border: 10px solid;
     color: #000;
-    left: 75px;
+    left: 75px; */
 }
 
 .widject-name {
