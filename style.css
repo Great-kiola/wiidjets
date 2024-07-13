@@ -103,17 +103,18 @@ body {
     padding: 5px 20px;
     border-radius: 8px;
     top: 20px;
+    right: 150px;
+    z-index: 1;
 }
 
 .tooltip-text::before{
     content: " ";
     position: absolute;
     top: 65%;
-    z-index: 1;
     transform: rotate(45deg);
     border: 10px solid;
     color: #000;
-    left: 75px;
+    left: 45px;
 }
 
 .widject-name {
