@@ -63,3 +63,17 @@ if (userYear.length <= minVal){
   // alert("Please enter a 4 digit number");
   console.log("Hello");
 }
+
+
+// CoinmarketCap
+
+fetch(
+  "https://pro-api.coinmarketcap.com/v1/cryptocurrency/category"
+)
+  .then((response) => response.json())
+  .then((data) => {
+    console.log("CoinmarketCap" + data);
+  })
+  .catch((error) => {
+    console.log("Error during fetch " + error.message);
+  });
