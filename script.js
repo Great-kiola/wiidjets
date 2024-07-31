@@ -87,8 +87,9 @@ new Promise(async (resolve, reject) => {
   }
   if (response) {
     // success
-    const json = response.data;
-    console.log(json);
-    resolve(json);
+    // const json = response.data;
+    // console.log(json);
+    // resolve(json);
+    alert(response.data);
   }
 });
