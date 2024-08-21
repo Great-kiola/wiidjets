@@ -199,6 +199,10 @@ body {
     margin-bottom: 25px;
 }
 
+footer p{
+    font-size: .9rem;
+}
+
 :root {
     --textColor: #000000;
 }
