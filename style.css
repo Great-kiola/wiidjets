@@ -177,7 +177,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
+/* 
 .coin-movement h3, .coin-movement svg{
     font-size: .7rem;
     color: green;
@@ -185,7 +185,7 @@ body {
 
 .coin-movement h3 svg{
     font-size: .5rem;
-}
+} */
 
 .coin-movement h2{
     font-size: 1.6rem;
