@@ -97,25 +97,35 @@ body {
     cursor: pointer;
 }
 
-.tooltip-text{
-    position: absolute;
-    background-color: #000;
+.title:hover .tooltip-text{
+    opacity: 1;
+    visibility: visible;
+    background: #000000;
     color: #fff;
-    padding: 5px 20px;
-    border-radius: 8px;
-    top: 20px;
-    right: 150px;
-    z-index: 1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tooltip-text{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 60px;
+    bottom: -10px;
+    transition: all 0.2s;
+    white-space: nowrap;
+
 }
 
 .tooltip-text::before{
-    content: " ";
+    content: '';
     position: absolute;
-    top: 65%;
-    transform: rotate(45deg);
-    border: 10px solid;
-    color: #000;
-    left: 45px;
+    left: -10px;
+    transition: 0.2s;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #000;
+    border-bottom: 10px solid transparent;
+
 }
 
 .widject-name {
@@ -177,15 +187,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-/* 
-.coin-movement h3, .coin-movement svg{
-    font-size: .7rem;
-    color: green;
-}
-
-.coin-movement h3 svg{
-    font-size: .5rem;
-} */
 
 .coin-movement h2{
     font-size: 1.6rem;
