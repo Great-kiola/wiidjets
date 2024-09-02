@@ -5,17 +5,16 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    /* font-family: "Space Mono", monospace; */
     font-family: "Inter", sans-serif;
 }
 
 body {
     min-height: 100vh;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fafafa;
+    flex-direction: column;
 }
 
 .widjects-box {
@@ -199,6 +198,12 @@ body {
     font-weight: bold;
 }
 
+/* .crypto-card{
+    background-color: var(--textColor);
+    border-radius: 20px;
+    color: var(--White);
+} */
+
 /* Date */
 .TDate{
     font-size: 1.5rem;
@@ -207,9 +212,10 @@ body {
 
 footer p{
     font-size: .9rem;
-    color: chocolate;
+    color: var(--textColor);
 }
 
 :root {
-    --textColor: #000000;
+    --textColor: navy;
+    --White: #fff;
 }
