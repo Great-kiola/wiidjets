@@ -8,8 +8,12 @@
     font-family: "Inter", sans-serif;
 }
 
+html{
+    height: 100%;
+}
+
 body {
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,6 +217,11 @@ body {
 footer p{
     font-size: .9rem;
     color: var(--textColor);
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
 }
 
 :root {
