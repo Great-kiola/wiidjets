@@ -97,7 +97,6 @@ body {
 
 .title{
     position: relative;
-    cursor: pointer;
 }
 
 .title:hover .tooltip-text{
