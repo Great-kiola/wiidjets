@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--zima-blue);
+    background-color: var(--bg-col);
     flex-direction: column;
 }
 
@@ -35,13 +35,13 @@ body {
 
 .card {
     max-width: 250px;
-    margin: 8px;
+    margin: 4px;
     padding: 15px 15px 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    border: .8px solid #e1e1e1;
+    background-color: var(--card-col);
+    border: 1.5px solid var(--card-strokes);
 }
 
 .details {
@@ -224,7 +224,13 @@ footer{
 }
 
 :root {
-    --textColor: navy;
+    --textColor: #000;
     --White: #fff;
-    --zima-blue: #16b8f3
+    --zima-blue: #16b8f3;
+    
+    /* Standard colours */
+    --bg-col: #efefef;
+    --card-col: #fbfbfb;
+    --card-insides: #f4f5f7;
+    --card-strokes: #e3e5ec;
 }
