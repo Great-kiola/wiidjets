@@ -201,6 +201,24 @@ body {
     font-weight: bold;
 }
 
+/* Image Profile */
+.profile-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#userName{
+    font-size: 1.2rem;
+}
+
 /* .crypto-card{
     background-color: var(--textColor);
     border-radius: 20px;
