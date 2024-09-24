@@ -216,14 +216,38 @@ body {
 }
 
 #userName{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-/* .crypto-card{
+.profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--zima-blue);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    transition: all ease-in;
+}
+
+.logout:hover{
     background-color: var(--textColor);
-    border-radius: 20px;
+}
+
+
+.logout svg{
     color: var(--White);
-} */
+    width: 14px;
+    height: 14px;
+}
 
 /* Date */
 .TDate{
