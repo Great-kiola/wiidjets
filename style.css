@@ -225,7 +225,7 @@ body {
     justify-content: space-between;
 }
 
-/* .logout{
+.logout{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,7 +236,7 @@ body {
     flex-wrap: nowrap;
     cursor: pointer;
     transition: all ease-in;
-} */
+}
 
 .logout:hover{
     background-color: var(--textColor);
