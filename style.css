@@ -208,7 +208,7 @@ body {
     align-items: center;
 }
 
-.profileImg{
+/* .profileImg{
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -223,7 +223,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 .logout{
     display: flex;
