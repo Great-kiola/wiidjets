@@ -202,11 +202,11 @@ body {
 }
 
 /* Image Profile */
-.profile-stats{
+/* .profile-stats{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 
 .profileImg{
     width: 35px;
@@ -215,9 +215,9 @@ body {
     margin-right: 10px;
 }
 
-#userName{
+/* #userName{
     font-size: 1rem;
-}
+} */
 
 .profile-details{
     display: flex;
