@@ -67,29 +67,63 @@ if (userYear.length <= minVal){
 
 // CoinmarketCap
 
-/* Example in Node.js */
-const axios = require('axios');
+// /* Example in Node.js */
+// const axios = require('axios');
 
 
-let response = null;
-new Promise(async (resolve, reject) => {
-  try {
-    response = await axios.get('https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
-      headers: {
-        'X-CMC_PRO_API_KEY': 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c',
-      },
-    });
-  } catch(ex) {
-    response = null;
-    // error
-    console.log(ex);
-    reject(ex);
-  }
-  if (response) {
-    // success
-    // const json = response.data;
-    // console.log(json);
-    // resolve(json);
-    alert(response.data);
-  }
-});
+// let response = null;
+// new Promise(async (resolve, reject) => {
+//   try {
+//     response = await axios.get('https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest', {
+//       headers: {
+//         'X-CMC_PRO_API_KEY': 'b54bcf4d-1bca-4e8e-9a24-22ff2c3d462c',
+//       },
+//     });
+//   } catch(ex) {
+//     response = null;
+//     // error
+//     console.log(ex);
+//     reject(ex);
+//   }
+//   if (response) {
+//     // success
+//     // const json = response.data;
+//     // console.log(json);
+//     // resolve(json);
+//     alert(response.data);
+//   }
+// });
+
+
+// Fear and greed index 
+// Connect open weather API
+const url = 'https://fear-and-greed-index.p.rapidapi.com/v1/fgi';
+const options = {
+	method: 'GET',
+	headers: {
+		'x-rapidapi-key': '0c84b4802amsh669d15d5e5d8739p13d073jsnd008c486b220',
+		'x-rapidapi-host': 'fear-and-greed-index.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}
+
+// fetch(
+//   "https://api.openweathermap.org/data/2.5/weather?q=London&appid=a461925d79fc440221121b90fd18ec1c"
+// )
+//   .then((response) => response.json())
+//   .then((data) => {
+//     console.log(data);
+//     cityTemp.innerHTML = data.main.temp;
+//     humidity.innerHTML = data.main.humidity;
+//     cityName.innerHTML = data.name;
+//   })
+//   .catch((error) => {
+//     console.log("Error during fetch " + error.message);
+//   });
