@@ -8,7 +8,7 @@
     font-family: "Inter", sans-serif;
 }
 
-html{
+html {
     height: 100%;
 }
 
@@ -83,7 +83,8 @@ body {
     font-weight: 400;
 }
 
-.temp, .humidity{
+.temp,
+.humidity {
     font-family: "Space Mono", monospace;
     font-weight: 900;
 }
@@ -95,11 +96,11 @@ body {
     color: var(--textColor);
 }
 
-.title{
+.title {
     position: relative;
 }
 
-.title:hover .tooltip-text{
+.title:hover .tooltip-text {
     opacity: 1;
     visibility: visible;
     background: #000000;
@@ -108,7 +109,7 @@ body {
     border-radius: 10px;
 }
 
-.tooltip-text{
+.tooltip-text {
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -119,7 +120,7 @@ body {
 
 }
 
-.tooltip-text::before{
+.tooltip-text::before {
     content: '';
     position: absolute;
     left: -10px;
@@ -136,7 +137,7 @@ body {
 }
 
 
-.birthdate{
+.birthdate {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -144,11 +145,11 @@ body {
     justify-content: center;
 }
 
-.birthdate h1{
+.birthdate h1 {
     font-family: "Space Mono", monospace;
 }
 
-.notAvailable{
+.notAvailable {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -156,13 +157,13 @@ body {
     justify-content: center;
 }
 
-.coin{
+.coin {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
 
-.coin h1{
+.coin h1 {
     font-size: 1rem;
     font-weight: 400;
 }
@@ -173,59 +174,60 @@ body {
     font-weight: 800;
 }
 
-.coin-designs{
+.coin-designs {
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-.coin-designs img{
+.coin-designs img {
     width: 15px;
     height: inherit;
 }
 
-.coin-movement, h3{
+.coin-movement,
+h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.coin-movement h2{
+.coin-movement h2 {
     font-size: 1.6rem;
     color: green;
 }
 
-.toDo p{
+.toDo p {
     font-size: 1rem;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 /* Image Profile */
-.profile-stats{
+.profile-stats {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.profileImg{
+.profileImg {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-#userName{
+#userName {
     font-size: 1rem;
 }
 
-.profile-details{
+.profile-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logout{
+.logout {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,38 +240,44 @@ body {
     transition: all ease-in;
 }
 
-.logout:hover{
+.logout:hover {
     background-color: var(--textColor);
 }
 
 
-.logout svg{
+.logout svg {
     color: var(--White);
     width: 14px;
     height: 14px;
 }
 
 /* Date */
-.TDate{
+.TDate {
     font-size: 1.5rem;
     margin-bottom: 25px;
 }
 
-footer p{
+footer p {
     font-size: .9rem;
     color: var(--textColor);
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 10px;
+}
+
+.crypto-card:hover {
+    cursor: pointer;
+    background: rgb(180, 74, 255);
+    background: linear-gradient(90deg, rgba(180, 74, 255, 1) 0%, rgba(189, 0, 83, 1) 100%);
 }
 
 :root {
     --textColor: #000;
     --White: #fff;
     --zima-blue: #16b8f3;
-    
+
     /* Standard colours */
     --bg-col: #efefef;
     --card-col: #fbfbfb;
