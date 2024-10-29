@@ -267,6 +267,7 @@ footer {
     bottom: 10px;
 }
 
+/*? New Addition  */
 .crypto-card:hover {
     cursor: pointer;
     background: rgb(180, 74, 255);
