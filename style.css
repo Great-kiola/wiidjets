@@ -268,11 +268,11 @@ footer {
 }
 
 /*? New Addition  */
-.crypto-card:hover {
+/* .crypto-card:hover {
     cursor: pointer;
     background: rgb(180, 74, 255);
     background: linear-gradient(90deg, rgba(180, 74, 255, 1) 0%, rgba(189, 0, 83, 1) 100%);
-}
+} */
 
 :root {
     --textColor: #000;
