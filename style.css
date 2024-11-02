@@ -204,7 +204,7 @@ h3 {
 }
 
 /* Image Profile */
-/* .profile-stats {
+.profile-stats {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -215,7 +215,7 @@ h3 {
     height: 35px;
     border-radius: 50%;
     margin-right: 10px;
-} */
+}
 
 #userName {
     font-size: 1rem;
@@ -227,7 +227,7 @@ h3 {
     justify-content: space-between;
 }
 
-.logout {
+/* .logout {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +238,7 @@ h3 {
     flex-wrap: nowrap;
     cursor: pointer;
     transition: all ease-in;
-}
+} */
 
 .logout:hover {
     background-color: var(--textColor);
