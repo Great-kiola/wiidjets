@@ -225,8 +225,6 @@ h3 {
     justify-content: space-between;
 }
 
-
-
 .logout:hover {
     background-color: var(--textColor);
 }
