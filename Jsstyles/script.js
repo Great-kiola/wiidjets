@@ -58,13 +58,13 @@ normalDate.innerText = date.toDateString();
 //   console.log("Hello");
 // }
 
-console.log("🥚")
+// console.log("🥚")
 
 
-// Using LocalStroage
-localStorage.setItem("name", "ola")
-localStorage.setItem("age", 25)
+// // Using LocalStroage
+// localStorage.setItem("name", "ola")
+// localStorage.setItem("age", 25)
 
 
-console.log(localStorage.getItem(age))
+// console.log(localStorage.getItem(age))
 // localStorage.removeItem("name")
