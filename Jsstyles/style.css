@@ -156,11 +156,6 @@ body {
     justify-content: center;
 }
 
-.coin {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
-}
 
 .coin h1 {
     font-size: 1rem;
@@ -173,11 +168,19 @@ body {
     font-weight: 800;
 }
 
-.coin-designs {
+.coins{
     display: flex;
-    gap: 5px;
     align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
+
+.coin-designs{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 
 .coin-designs img {
     width: 15px;
