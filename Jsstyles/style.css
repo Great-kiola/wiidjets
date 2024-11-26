@@ -181,6 +181,10 @@ body {
     gap: 5px;
 }
 
+#price{
+    color: red;
+}
+
 
 .coin-designs img {
     width: 15px;
