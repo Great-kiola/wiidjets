@@ -68,3 +68,28 @@ console.log("🥚")
 
 // console.log(localStorage.getItem(age))
 // localStorage.removeItem("name")
+
+
+
+// Api
+
+
+
+let str = "I am looking for junior dev positions."
+console.log(str.replaceAll("junior dev", "Software Engineer"));
+
+
+function rockPaperScissor(){
+  let random = Math.random()
+
+  if( random < .33){
+    console.log("ROCK") 
+  } else if( random < .66){
+    console.log("PAPER") 
+  } else{
+    console.log("Scissors") 
+  }
+}
+
+
+rockPaperScissor();
