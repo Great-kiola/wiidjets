@@ -75,21 +75,22 @@ console.log("🥚")
 
 
 
-let str = "I am looking for junior dev positions."
-console.log(str.replaceAll("junior dev", "Software Engineer"));
+// let str = "I am looking for junior dev positions."
+// console.log(str.replaceAll("junior dev", "Software Engineer"));
 
 
-function rockPaperScissor(){
-  let random = Math.random()
+// function rockPaperScissor(){
+//   let random = Math.random()
+//   console.log(random)
 
-  if( random < .33){
-    console.log("ROCK") 
-  } else if( random < .66){
-    console.log("PAPER") 
-  } else{
-    console.log("Scissors") 
-  }
-}
+//   if( random < .33){
+//     console.log("ROCK") 
+//   } else if( random < .66){
+//     console.log("PAPER") 
+//   } else{
+//     console.log("Scissors") 
+//   }
+// }
 
 
-rockPaperScissor();
+// rockPaperScissor();
