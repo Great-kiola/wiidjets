@@ -108,3 +108,7 @@ console.log("🥚")
 //   })
 
 
+
+
+// Notes: Add javascript for the pomodoro timer
+// Check previous projects if inspiration is needed
