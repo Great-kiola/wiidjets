@@ -4,7 +4,7 @@ const cityTemp = document.querySelector("#temperature");
 const cityName = document.querySelector("#cityName");
 const humidity = document.querySelector(".humidity");
 const normalDate = document.querySelector("#currDate");
-const userAge = document.querySelector(".userAge");
+const userAge = document.querySelector(".userAge").innerHTML;
 
 // Connect open weather API
 fetch(
@@ -112,3 +112,17 @@ console.log("🥚")
 
 // Notes: Add javascript for the pomodoro timer
 // Check previous projects if inspiration is needed
+
+
+function truncate(x, num){
+  if(x.length <= num){
+    return x;
+  } else{
+    return x.slice(0, num) + "....";
+  }
+}
+
+let ages = userAge
+
+truncate(ages, 6)
+
