@@ -12,3 +12,7 @@ Extra features
 -- A relaxing box image.png users can click on that generates a random color like a light switch
 
 -- Add interval to make time count.
+
+
+
+
