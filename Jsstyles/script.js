@@ -1,11 +1,13 @@
 require('dotenv').config();
+import { config } from 'dotenv';
+config();
 
 // All selector and pointers
 const cityTemp = document.querySelector("#temperature");
 const cityName = document.querySelector("#cityName");
 const humidity = document.querySelector(".humidity");
-const normalDate = document.querySelector("#currDate");
-const userAge = document.querySelector(".userAge").innerHTML;
+// const normalDate = document.querySelector("#currDate");
+// const userAge = document.querySelector(".userAge").innerHTML;
 const btcPrice = document.querySelector(".btc-price");
 
 // Connect open weather API
@@ -27,12 +29,12 @@ const date = new Date();
 const year = date.getFullYear();
 const month = date.getMonth();
 const day = date.getDate();
-const dayofweek = date.getDay();
+// const dayofweek = date.getDay();
 
 // Used to get the price of the crypto
 fetch('https://rest.coinapi.io/v1/exchangerate/BTC/USD', {
   headers: {
-      "X-CoinAPI-Key": `${process.env.Api_key}` // Replace with your API key
+      "X-CoinAPI-Key": process.env.API_KEY // Replace with your API key
       }
   })
   .then(response => response.json())
