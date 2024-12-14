@@ -6,7 +6,7 @@
 const cityTemp = document.querySelector("#temperature");
 const cityName = document.querySelector("#cityName");
 const humidity = document.querySelector(".humidity");
-// const normalDate = document.querySelector("#currDate");
+const normalDate = document.querySelector("#currDate");
 // const userAge = document.querySelector(".userAge").innerHTML;
 const btcPrice = document.querySelector(".btc-price");
 
@@ -31,7 +31,9 @@ const month = date.getMonth();
 const day = date.getDate();
 const dayofweek = date.getDay();
 
-console.log(date)
+console.log(year)
+
+normalDate.innerHTML = date.toDateString();
 
 
 
@@ -53,15 +55,15 @@ console.log(date)
 
 
 // Used for the details of the crypto
-fetch("https://api.coinpaprika.com/v1/coins")
-  .then((res) => res.json())
-  .then((data) => {
-    for (let i = 0; i < 10; i++) {
-      console.log(data[i].name);
-    }
-  })
-  .catch((eRR) => {
-    console.log(eRR);
-  });
+// fetch("https://api.coinpaprika.com/v1/coins")
+//   .then((res) => res.json())
+//   .then((data) => {
+//     for (let i = 0; i < 10; i++) {
+//       console.log(data[i].name);
+//     }
+//   })
+//   .catch((eRR) => {
+//     console.log(eRR);
+//   });
 
 
