@@ -1,6 +1,6 @@
-require('dotenv').config();
-import { config } from 'dotenv';
-config();
+// require('dotenv').config();
+// import { config } from 'dotenv';
+// config();
 
 // All selector and pointers
 const cityTemp = document.querySelector("#temperature");
@@ -29,22 +29,27 @@ const date = new Date();
 const year = date.getFullYear();
 const month = date.getMonth();
 const day = date.getDate();
-// const dayofweek = date.getDay();
+const dayofweek = date.getDay();
+
+console.log(date)
+
+
+
 
 // Used to get the price of the crypto
-fetch('https://rest.coinapi.io/v1/exchangerate/BTC/USD', {
-  headers: {
-      "X-CoinAPI-Key": process.env.API_KEY // Replace with your API key
-      }
-  })
-  .then(response => response.json())
-  .then((data) => {
-    let price = data.rate
-    let convertedPrice = price.toFixed(2)
-    btcPrice.innerHTML = convertedPrice
+// fetch('https://rest.coinapi.io/v1/exchangerate/BTC/USD', {
+//   headers: {
+//       "X-CoinAPI-Key": process.env.API_KEY // Replace with your API key
+//       }
+//   })
+//   .then(response => response.json())
+//   .then((data) => {
+//     let price = data.rate
+//     let convertedPrice = price.toFixed(2)
+//     btcPrice.innerHTML = convertedPrice
 
-  })
-  .catch(error => console.error('Error:', error));
+//   })
+//   .catch(error => console.error('Error:', error));
 
 
 // Used for the details of the crypto
