@@ -41,7 +41,7 @@ normalDate.innerHTML = date.toDateString();
 // Used to get the price of the crypto
 // fetch('https://rest.coinapi.io/v1/exchangerate/BTC/USD', {
 //   headers: {
-//       "X-CoinAPI-Key": process.env.API_KEY // Replace with your API key
+//       "X-CoinAPI-Key": "236eeb5c-1fbd-49c5-a9c6-4682ca522282"// Replace with your API key
 //       }
 //   })
 //   .then(response => response.json())
